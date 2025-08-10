@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    min-width: 320px;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__nav-logo {
+    padding: 50px 0;
+}
+
+.header__nav-list {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.header__nav-item_link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #8c8a8a;
+}
+
+.section_pic_box_img {
+    width: 100%;
+    display: block;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    color: #808080;
+    margin: 30px auto;
+}
+
+.content1 {
+    max-width: 730px;
+    background: #f0f0f0;
+    padding: 50px 96px 50px 40px;
+}
+
+.content2 {
+    max-width: 350px;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 50px 24px 159px 40px;
+}
+
+.section_content1_heading {
+    max-width: 395px;
+    width: 100%;
+}
+
+.section_content2_heading {
+    max-width: 150px;
+    width: 100%;
+}
+
+.section_content1_heading,
+.section_content2_heading {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #4581B7;    
+    margin-bottom: 25px;
+}
+
+.section_content1_text,
+.section_content2_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 28px;
+}
+
+.section_content2_text {
+    min-width: 220px;
+}
+
+.section_content2_text_num {
+    margin-bottom: 56px;
+}
+
+.section_content2_text_num-link {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 60px;
+}
+
+.section_content2_text_mail-link {
+    color: #808080;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.footer_info {
+    background: #f0f0f0;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_info_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.footer_info_list_item_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #808080;
+}
+
+.footer_info_list_item_number a{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    color: #808080;
+}
